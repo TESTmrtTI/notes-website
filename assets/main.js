@@ -17,7 +17,7 @@
     	titleSpan.textContent = titleText;
     	const noteContent = document.createElement('div');
     	noteContent.classList.add('note-content');
-    	const descriptionLines = splitDescriptionText(descriptionText, 50); // Adjust the line length as per your preference
+    	const descriptionLines = splitDescriptionText(descriptionText, 50);
     	descriptionLines.forEach((line) => {
     		const lineBreak = document.createElement('br');
     		noteContent.appendChild(document.createTextNode(line));
